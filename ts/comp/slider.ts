@@ -80,11 +80,16 @@ class slider extends HTMLElement {
 	
 
 		var style = `
+						:host{
+							display:block;
+						}
+					    *{
+							box-sizing: border-box;
+             			}
 						.textBox {
-						  margin: 10px;
 						  position: relative;
 						  border-radius: 5px;
-						  width: max-content;
+						  width: 100%;
 						  background: white;
 						  padding: 10px;
 						  box-shadow: #271c3e 0 8px 20px -8px;
