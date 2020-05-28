@@ -1,13 +1,5 @@
 import * as elems from "./elems/elems"
-
-function Elm(el: any) {
-	return <HTMLElement>document.createElement(el);
-}
-
-function FormElm(el: any) {
-	return <HTMLFormElement>document.createElement(el);
-}
-
+import {Elm, FormElm } from "./funcs";
 
 
 
