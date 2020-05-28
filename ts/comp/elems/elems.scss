@@ -1,0 +1,19 @@
+.container{
+	width:100%;
+	position: relative;
+	box-sizing: border-box;
+	padding: .3em;
+	box-shadow: 3px 3px 5px 5px #d5cedb;
+	border-radius: .5em;
+	.head{
+		padding: .1em .5em;
+	}
+	input[type=text]{
+		width: 100%;
+		box-sizing: border-box;
+
+	}
+	.cont{
+		padding: .5em;
+	}
+}

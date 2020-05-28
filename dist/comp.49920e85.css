@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0.3em;
+  box-shadow: 3px 3px 5px 5px #d5cedb;
+  border-radius: 0.5em;
+}
+.container .head {
+  padding: 0.1em 0.5em;
+}
+.container input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+}
+.container .cont {
+  padding: 0.5em;
+}
+
+
+
+
+/*# sourceMappingURL=/comp.49920e85.css.map */
